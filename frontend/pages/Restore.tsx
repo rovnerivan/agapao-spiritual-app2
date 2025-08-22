@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Heart, BookOpen, Hands, Sparkles } from 'lucide-react';
+import { ArrowLeft, Heart, BookOpen, HandHeart, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface AIResponse {
@@ -141,7 +141,7 @@ export default function Restore() {
           {/* Prayer Guide */}
           <div className="bg-[#FFF8DC]/10 rounded-2xl p-8 border border-[#FFF8DC]/20">
             <div className="flex items-center mb-6">
-              <Hands className="w-8 h-8 text-[#FFF8DC] mr-3" />
+              <HandHeart className="w-8 h-8 text-[#FFF8DC] mr-3" />
               <h3 className="text-xl font-bold text-white">Guía de oración</h3>
             </div>
             <div className="bg-[#424242]/30 rounded-xl p-6">
